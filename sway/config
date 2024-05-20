@@ -27,7 +27,6 @@
 
 
 
-
 #####################################################################################
 ################################|                   |################################
 ################################| SHESH SWAY CONFIG |################################
@@ -81,6 +80,9 @@ bindsym $mod+Cyrillic_el exec keepassxc
 
 # to automount drives
 exec udiskie --smart-tray
+
+# clipboard
+exec wl-paste -t text --watch clipman store --no-persist
 
 ##### BASICS #####
 
