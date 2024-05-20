@@ -1,0 +1,102 @@
+#
+#         ________          ________          ________          ________
+#        |        |\       |        |\       |        |\       |        |\
+#        |        |:\      |        |:\      |        |:\      |        |:\
+#        |        |::\     |   	    |::\     |        |::\     |        |::\
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |	    |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |	    |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |	    |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |	    |:::|    |        |:::|    |        |:::|
+#        |        |:::|    |        |:::|    |        |:::|    |        |:::|
+#        |        |___|____|        |___|____|        |___|____|        |:::|
+#        |                                                              |:::|
+#        |                                                              |:::|
+#        |______________________________________________________________|:::|
+#         \::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\::|
+#          \_______________________________________________________________\|
+#
+
+
+
+
+
+
+
+
+#####################################################################################
+##############################|                       |##############################
+##############################| SHESH I3BLOCKS CONFIG |##############################
+##############################|                       |##############################
+#####################################################################################
+#                                                                                   #
+#                              created 2024-05-05                                   #
+#                              last modified 2024-05-05                             #
+#                                                                                   #
+#                   Read `man i3blocks` for a complete reference.                   #
+#                                                                                   #
+#####################################################################################
+
+separator=true
+separator_block_width=15
+
+[wifi]
+command=~/.config/i3blocks/wifi.sh
+interval=2
+
+[cam]
+command=~/.config/i3blocks/cam.sh
+interval=1
+signal=1
+
+[mic]
+command=~/.config/i3blocks/mic.sh
+interval=5
+signal=1
+
+[sound]
+command=~/.config/i3blocks/sound.sh
+interval=5
+signal=1
+
+[brightness]
+command=~/.config/i3blocks/brightness.sh
+interval=5
+signal=1
+
+[battery]
+command=~/.config/i3blocks/battery.sh
+interval=3
+
+[cpu_usage]
+command=~/.config/i3blocks/cpu_usage.sh
+interval=repeat
+
+[cpu_temp]
+command=~/.config/i3blocks/cpu_temp.sh
+interval=1
+
+[mem]
+command=~/.config/i3blocks/mem.sh
+interval=1
+
+[disk]
+command=~/.config/i3blocks/disk.sh
+interval=10
+
+[layout]
+command=~/.config/i3blocks/layout.sh
+interval=10
+signal=1
+
+[date]
+command=~/.config/i3blocks/date.sh
+interval=1
+
+[time]
+command=~/.config/i3blocks/time.sh
+interval=1
