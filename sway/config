@@ -154,9 +154,6 @@ bindsym $mod+Shift+0 move container to workspace number 10
 # Window setting for Launcher
 for_window [app_id="Launcher"] floating enable, sticky enable, border pixel 10
 
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-
 default_border normal
 gaps inner 5
 gaps outer 5
