@@ -1,0 +1,3 @@
+MODULES(btrfs)
+
+HOOKS=(base systemd autodetect microcode modconf kms keyboard keymap block sd-encrypt filesystems fsck grub-btrfs-overlayfs)
