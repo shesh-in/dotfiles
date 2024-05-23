@@ -51,15 +51,12 @@ set $term alacritty
 # Launcher
 set $menu exec $term --class Launcher -e sway-launcher-desktop
 
-# Sway-bar script
-set $script status.sh
-
 ##### HOTKEY APP START #####
 
-bindsym $mod+g exec firefox-developer-edition
-bindsym $mod+Cyrillic_pe exec firefox-developer-edition
-bindsym $mod+Shift+g exec firefox-developer-edition --private-window
-bindsym $mod+Shift+Cyrillic_pe exec firefox-developer-edition --private-window
+bindsym $mod+g exec firefox-developer-edition --private-window
+bindsym $mod+Cyrillic_pe exec firefox-developer-edition --private-window
+bindsym $mod+Shift+g exec firefox-developer-edition
+bindsym $mod+Shift+Cyrillic_pe exec firefox-developer-edition
 
 bindsym $mod+bracketleft exec $term -e alsamixer
 bindsym $mod+Cyrillic_ha exec $term -e alsamixer
@@ -286,5 +283,6 @@ bar {
     }
 }
 
+# include system config
 include /etc/sway/config.d/*
 
